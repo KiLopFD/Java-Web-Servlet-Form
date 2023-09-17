@@ -26,7 +26,7 @@ ENV JAVA_HOME=/opt/jdk-16.0.1
 
 ENV PATH=$PATH:$JAVA_HOME/bin  
 
-RUN wget https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz -P /tmp &&\
+RUN wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz -P /tmp &&\
 
     tar xf /tmp/apache-maven-*.tar.gz -C /opt &&\
 
