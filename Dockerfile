@@ -71,3 +71,4 @@ COPY .docker/command.sh /var/command.sh
 
 CMD ["sh", "/var/command.sh"]
 
+
