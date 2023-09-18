@@ -35,7 +35,7 @@ RUN wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.
 
 RUN useradd -m -U -d /opt/tomcat -s /bin/false tomcat && \
 
-    wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.54/bin/apache-tomcat-9.0.54.tar.gz -P /tmp &&\
+    wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz -P /tmp &&\
 
     tar xzvf /tmp/apache-tomcat-*tar.gz -C /opt/tomcat --strip-components=1 &&\
 
