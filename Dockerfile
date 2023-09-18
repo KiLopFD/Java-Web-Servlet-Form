@@ -18,7 +18,7 @@ RUN  apt-get install systemd -y
 
 
 
-RUN wget https://download.java.net/java/GA/jdk16.0.1/7147401fd7354114ac51ef3e1328291f/9/GPL/openjdk-16.0.1_linux-x64_bin.tar.gz -P /tmp &&\
+RUN wget https://download.oracle.com/java/20/latest/jdk-20_linux-x64_bin.tar.gz -P /tmp &&\
 
     tar xvf /tmp/openjdk-16.0.1_linux-x64_bin.tar.gz -C /opt 
 
